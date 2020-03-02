@@ -1,5 +1,37 @@
-$header-width: 1170px;
+@import "./style/reset.css";
 
-    header{
-    width:$header-width;
+$jcc:center;
+$acc:center;
+$grey:#888;
+$blue:#34b1da;
+$black:#464646;
+
+@mixin dflex{
+    display: flex;
+    justify-content: center;
+}
+    * {
+        box-sizing: border-box !important;
     }
+    body {
+        background-color: #ffffff;
+        font-family: 'Open Sans';
+        overflow-x: hidden;
+    }
+    .wrapper {
+        width: 100%;
+        min-height: 500px;
+        margin:0 auto;
+        @include dflex;
+    }
+    .inline-wrapper{
+        width:1170px;
+    }
+    header{
+        width:100%;
+    }
+
+
+    @import "./style/desktop.scss";
+    @import "./style/IPud.scss";
+    @import "./style/mobile.scss";

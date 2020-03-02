@@ -2,9 +2,12 @@ import React from 'react';
 
 const Main = () => {
     return(
-        <div>
-            <main>main</main>
-        </div>
+        <main>
+            <div className="side-bar">side-bar</div>
+            <div className="inline-main">
+                Main
+            </div>
+        </main>
     )
 }
 

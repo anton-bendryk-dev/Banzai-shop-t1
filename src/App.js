@@ -8,7 +8,6 @@ function App() {
     <div className="wrapper">
       <div className="inline-wrapper">
           <Header/>
-        <div className="side-bar">side-bar</div>
           <Main/>
           <Footer/>
       </div>

@@ -27,8 +27,25 @@ $black:#464646;
     .inline-wrapper{
         width:1170px;
     }
-    header{
+    main{
         width:100%;
+        @include dflex;
+        
+    }
+    @import "./style/header.scss";
+    .side-bar{
+        width: 20%;
+        background-color: red;
+    }
+    .inline-main{
+        width: 80%;
+        min-height: 500px;
+        background-color: rgb(62, 172, 86);
+    }
+    footer{
+        width:100%;
+        min-height: 100px;
+        background-color: rgb(64, 62, 172);
     }
 
 

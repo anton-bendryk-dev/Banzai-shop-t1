@@ -3,7 +3,7 @@ import logo from '../images/logo2.png';
 
 const Header = () => {
     return (
-        <header className="App-header">
+        <header className="App-header row">
             <div className="col-height50">
                 <div className="col-width20">
                     <img src={logo} className="App-logo" alt="logo" />

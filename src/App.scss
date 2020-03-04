@@ -2,14 +2,46 @@
 
 $jcc:center;
 $acc:center;
-$grey:#888;
+$grey:#f2f2f2;
 $blue:#34b1da;
 $black:#464646;
-
-@mixin dflex{
+$hover-button:#40bee8;
+@mixin flex-jc{
     display: flex;
     justify-content: center;
 }
+@mixin flex-ac{
+    display: flex;
+    align-items: center;
+}
+@mixin flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin icon{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+@mixin icon-big{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+a {
+    outline: none;
+    text-decoration: none;
+    border: none;
+}
+a:active, a:hover {text-decoration: none; outline: none !important; }
+a:link { text-decoration: none; outline: none !important;}
     * {
         box-sizing: border-box !important;
     }
@@ -18,24 +50,32 @@ $black:#464646;
         font-family: 'Open Sans';
         overflow-x: hidden;
     }
+    .flex{
+        @include flex;
+    }
+    .flex-ac{
+        @include flex-ac;
+    }
+    .flex-jc{
+        @include flex-jc;
+    }
     .wrapper {
         width: 100%;
         min-height: 500px;
         margin:0 auto;
-        @include dflex;
+        @include flex-jc;
     }
     .inline-wrapper{
         width:1170px;
     }
     main{
         width:100%;
-        @include dflex;
+        @include flex-jc;
         
     }
     @import "./style/header.scss";
     .side-bar{
         width: 20%;
-        background-color: red;
     }
     .inline-main{
         width: 80%;

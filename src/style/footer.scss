@@ -1,0 +1,16 @@
+footer{
+    margin-top: 20px;
+    width:100%;
+    min-height: 100px;
+    background-color: $blue;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    padding: 10px;
+    @include flex-ac;
+    justify-content: space-between;
+}
+footer p{
+    color: white;
+    font-size: 24px;
+
+}

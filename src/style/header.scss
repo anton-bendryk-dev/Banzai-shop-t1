@@ -151,6 +151,8 @@ form input[type="submit"]:hover{
 .cart span{
     display: inline-block;
     @include icon-big;
+    width: 24px;
+    height: 24px;
     background-image: url(../images/shopping-cart3.png);
     margin-right:10px;
 }

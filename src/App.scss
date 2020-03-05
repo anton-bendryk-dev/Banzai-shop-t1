@@ -32,8 +32,6 @@ $hover-button:#40bee8;
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
-    width: 24px;
-    height: 24px;
 }
 a {
     outline: none;
@@ -78,13 +76,7 @@ a:link { text-decoration: none; outline: none !important;}
     }
     @import "./style/header.scss";
     @import "./style/main.scss";
-    footer{
-        width:100%;
-        min-height: 100px;
-        background-color: rgb(64, 62, 172);
-    }
-
-
+    @import "./style/footer.scss";
     @import "./style/desktop.scss";
     @import "./style/IPud.scss";
     @import "./style/mobile.scss";

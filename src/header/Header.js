@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../images/logo2.png';
-
+import Cart from './cart/Cart'
 const Header = () => {
     return (
         <header className="App-header row">
@@ -31,14 +31,12 @@ const Header = () => {
                 </div>
                 <div className="col-width60 navigation">
                     <a href="/"><span className="icon1"></span>Home</a>
-                    <a href="/"><span className="icon2"></span>Wish List</a>
+                    <a href="/"><span className="icon2"></span>Wish List(0)</a>
                     <a href="https://github.com/anton-bendryk-dev"><span className="icon3"></span>My Git Hub</a>
                     <a href="https://www.facebook.com/profile.php?id=100011041088916"><span className="icon4"></span>My Facebook</a>
                 </div>
                 <div className="col-width20">
-                    <div className="cart">
-                        <a href="/"><span></span>items()</a>
-                    </div>
+                    <Cart/>
                 </div>
             </div>
         </header>

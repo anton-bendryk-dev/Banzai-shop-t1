@@ -169,13 +169,16 @@ main {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 .product-list-item{
     border: 2px solid $grey;
+    border-radius:5px;
+    width: 290px;
+    margin-bottom: 20px;
 }
 .product-image{
-    width: 270px;
+    width: 287px;
     height: 270px;
     @include flex;
     border-bottom: 1px solid $grey;
@@ -216,7 +219,7 @@ main {
 }
 .product-quantity input{
     text-align: center;
-    width: 50px;
+    width: 80px;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 5px;
@@ -247,10 +250,17 @@ main {
     background-image: url(../images/cart.png);
     margin-left: 10px;
 }
-.like span{
+.heart1{
     @include icon-big;
     width: 24px;
     height: 24px;
-    background-image: url(../images/like.png);
+    background-image: url(../images/like2.png);
     margin-left: 10px;
+}
+.heart2{
+  @include icon-big;
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/like.png);
+  margin-left: 10px;
 }

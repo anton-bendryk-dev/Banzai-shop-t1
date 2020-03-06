@@ -23,14 +23,21 @@ const productsData = [
         price:1000,
         image:'./pictures/product-tv.png'
     },
-    // {
-    //     id:4,
-    //     name:"iPhone 8 plus",
-    //     description:"This is iPhone 8 plus",
-    //     type:"phone",
-    //     price:1000,
-    //     image:'./pictures/product-tv.png'
-    // },
+    {
+        id:4,
+        name:"iPhone 8 plus",
+        description:"This is iPhone 8 plus",
+        type:"phone",
+        price:1000,
+        image:'./pictures/product-tv.png'
+    },
 ]
+export const getProductsMap = (array) => {
+    return array.reduce((accObj,product)=>({
+        ...accObj,
+        [product.id]:product
+    }),{})
+}
+
 
 export default productsData

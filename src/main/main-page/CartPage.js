@@ -1,22 +1,24 @@
 import React from 'react'
 import {connect} from 'react-redux'
-import {Link} from 'react-router-dom'
 import CartTotal from '../../Components/Cart/CartTotal'
 import CartProductList from '../../Components/Cart/CartProductList'
+import CartProductListItemExtended from '../../Components/Cart/CartProductListItemExtended'
 
-const Cart = ({
+const CartPage = ({
     productsInCart,
 }) => {
     return (
-        <div className="cart">
-            <Link to="/cart">Show cart<span></span></Link>
-            <div className="show-total">
+        <div className="cart-page">
+            <h2 className="page-title">Cart Page</h2>
+            <div className="products-container">
                 <CartProductList
                     productsInCart={productsInCart}
+                    CartList={CartProductListItemExtended}
                 />
-                <CartTotal 
-                    productsInCart={productsInCart}/>
             </div>
+            <CartTotal
+                productsInCart={productsInCart}
+            />
         </div>
     )
 }
@@ -24,6 +26,8 @@ const Cart = ({
 const mapStateToProps = (state)=> ({
     productsInCart:state.productsInCart
 })
+
+
 export default connect(
-    mapStateToProps
-)(Cart)
+    mapStateToProps,
+)(CartPage)

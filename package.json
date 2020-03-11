@@ -1,5 +1,6 @@
 {
   "name": "my-shop",
+  "homepage": "https://anton-bendryk-dev.github.io/banzai-shop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -68,7 +69,9 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -86,6 +89,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1",
     "remote-redux-devtools": "^0.5.16",
     "sass-loader": "^8.0.2"

@@ -21,7 +21,7 @@ const Header = () => {
                 </div>
             </div>
             <div className="col-height50">
-                <div className="col-width20 cart">
+                <div className="col-width20">
                     <div className="categories"><p>Categories</p>
                         <div className="drop-menu">
                             <div class="menu-buttons"><Link to="/TVPage">TV</Link></div>

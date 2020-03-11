@@ -97,26 +97,30 @@ const productsData = [
     },
 ]
 export const productsDataTv = productsData.filter(function(currentValue,id){
-    return currentValue.id < 3
+    return currentValue.id <= 3
 })
 export const productsDataPhone = productsData.filter(function(currentValue,id){
-    if ((currentValue.id >= 3) && (currentValue,id <= 5))
+    if ((currentValue.id > 3) && (currentValue,id <= 5))
     return {
         currentValue,id
     } ;
 })
 export const productsDataLaptops = productsData.filter(function(currentValue,id){
-    if ((currentValue.id >= 6) && (currentValue.id <= 8))
+    if ((currentValue.id > 6) && (currentValue.id <= 9))
     return {
         currentValue,id
     } ;
 })
 export const productsDataTablets = productsData.filter(function(currentValue,id){
-    if ((currentValue.id >= 9) && (currentValue.id <= 12))
+    if ((currentValue.id > 9) && (currentValue.id <= 12))
     return {
         currentValue,id
     } ;
 })
+console.log(productsDataTv)
+console.log(productsDataPhone)
+console.log(productsDataLaptops)
+console.log(productsDataTablets)
 export const getProductsMap = (array) => {
     return array.reduce((accObj,product)=>({
         ...accObj,

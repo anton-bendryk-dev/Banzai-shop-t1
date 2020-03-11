@@ -8,6 +8,32 @@
     .col-width20{
     width: 100%;
     }
+    .categories{
+        width: 60px;
+        height: 20px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        background-image: url(../images/menu.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .categories p{
+        display: none;
+    }
+    .drop-menu {
+        top: 40px;
+        right: 0px;
+        width: 192px;
+    }
+    .menu-buttons {
+        width: 192px;
+    }
+    .menu-buttons a{
+        width: 100%;
+        height: 50px;
+        margin-left: 5px;
+    }
     .contacts{
         display: flex;
         align-items: center;
@@ -16,19 +42,21 @@
     .cart-container{
         width: 30%;
     }
-    .drop-menu {
-        top: 142px;
-    }
-    .menu-buttons a{
-        width: 100%;
-        height: 50px;
-        margin-left: 0px;
-    }
     .side-bar {
         width: 0%;
     }
     .inline-main {
         width: 100%;
         min-height: 500px;
+    }
+    .navigation {
+        margin-top: 10px;
+    }
+    .cart{
+        margin-top: 10px;
+        height: 50px;
+    }
+    .products-container{
+        padding: 10px;
     }
 }

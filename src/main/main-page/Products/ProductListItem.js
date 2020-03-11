@@ -78,7 +78,6 @@ class ProductListItem extends Component {
 ProductListItem.propTypes = {
     name: PropTypes.string.isRequired,
     description:PropTypes.string,
-    capacity:PropTypes.number.isRequired,
     type:PropTypes.string.isRequired,
     price:PropTypes.number.isRequired,
     image:PropTypes.string,

@@ -20,15 +20,30 @@
         font-size: 12px;
     }
     .categories{
-        width: 190px;
+        width: 60px;
+        height: 20px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        background-image: url(../images/menu.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .categories p{
+        display: none;
     }
     .drop-menu {
-        top: 142px;
+        top: 40px;
+        right: 0px;
+        width: 192px;
+    }
+    .menu-buttons {
+        width: 192px;
     }
     .menu-buttons a{
         width: 100%;
         height: 50px;
-        margin-left: 0px;
+        margin-left: 5px;
     }
     .navigation a{
         color:$blue;
@@ -36,8 +51,15 @@
         height: 20px;
         font-size: 10px;
     }
+    .navigation {
+        margin-top: 10px;
+    }
     .cart span{
         margin-right:0px;
+    }
+    .cart{
+        margin-top: 10px;
+        height: 50px;
     }
     .side-bar {
         width: 0%;
@@ -63,5 +85,18 @@
     .slideText2,
     .slideText3 {
         top: 120px;
+    }
+    .products-container {
+        display: flex;
+        justify-content: center;
+    }
+    .AddToCard {
+        height: 40px;
+    }
+    .like {
+        height: 40px;
+    }
+    .product-quantity{
+        height: 30px;
     }
 }

@@ -11,7 +11,7 @@ const Header = () => {
                     <Link to="/"><img src={logo} className="App-logo" alt="logo" /></Link>
                 </div>
                 <div className="col-width60 flex-ac">
-                    <form class="search">
+                    <form className="search">
                         <input type="search" name="as_q" id="q" />
                         <input type="submit" value="search" />
                     </form>
@@ -24,18 +24,18 @@ const Header = () => {
                 <div className="col-width20">
                     <div className="categories"><p>Categories</p>
                         <div className="drop-menu">
-                            <div class="menu-buttons"><Link to="/TVPage">TV</Link></div>
-                            <div class="menu-buttons"><Link to="/PhonePage">Phones</Link></div>
-                            <div class="menu-buttons"><Link to="/LaptopsPage">Laptops</Link></div>
-                            <div class="menu-buttons"><Link to="/TabletsPage">iPads</Link></div>
+                            <div className="menu-buttons"><Link to="/TVPage">TV</Link></div>
+                            <div className="menu-buttons"><Link to="/PhonePage">Phones</Link></div>
+                            <div className="menu-buttons"><Link to="/LaptopsPage">Laptops</Link></div>
+                            <div className="menu-buttons"><Link to="/TabletsPage">iPads</Link></div>
                         </div>
                     </div>
                 </div>
                 <div className="col-width60 navigation">
                     <Link to="/"><span className="icon1"></span>Home</Link>
                     <WishList/>
-                    <a href="https://github.com/anton-bendryk-dev"><span className="icon3"></span>My Git Hub</a>
-                    <a href="https://www.facebook.com/profile.php?id=100011041088916"><span className="icon4"></span>My Facebook</a>
+                    <a href="https://anton-bendryk-dev.github.io/logistics-solutions/"><span className="icon3"></span>Next site</a>
+                    <a href="https://www.facebook.com/profile.php?id=100011041088916"><span className="icon4"></span>Facebook</a>
                 </div>
                 <div className="col-width20 cart-container">
                     <Cart/>

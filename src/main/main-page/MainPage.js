@@ -9,7 +9,7 @@ const MainPage = () => {
     return (
         <div className="main-page">
             <div className="slide-container">
-                <div class="fadein">
+                <div className="fadein">
                     <div><img src={slide2} alt="" />
                         <h2 className="inline-wrapper">Iphone X</h2>
                     </div>

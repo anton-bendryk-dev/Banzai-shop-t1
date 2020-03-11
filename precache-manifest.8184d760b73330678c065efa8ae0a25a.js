@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "45f39bcaea96515daddd4eee31246ee9",
+    "revision": "71311b0c25ead68bf54d28ce00012792",
     "url": "/banzai-shop/index.html"
   },
   {
-    "revision": "f9b605bd11475a97c012",
-    "url": "/banzai-shop/static/css/main.96408cda.chunk.css"
+    "revision": "6fd85f6d97e872a2b6ee",
+    "url": "/banzai-shop/static/css/main.d72d42eb.chunk.css"
   },
   {
-    "revision": "bc3321af22dc1e930cc6",
-    "url": "/banzai-shop/static/js/2.ba0fc9d3.chunk.js"
+    "revision": "cf4307e797f30b897d31",
+    "url": "/banzai-shop/static/js/2.a0bc10dd.chunk.js"
   },
   {
     "revision": "96219bc210d065416bcec57f9037d9d9",
-    "url": "/banzai-shop/static/js/2.ba0fc9d3.chunk.js.LICENSE.txt"
+    "url": "/banzai-shop/static/js/2.a0bc10dd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f9b605bd11475a97c012",
-    "url": "/banzai-shop/static/js/main.085b0f62.chunk.js"
+    "revision": "6fd85f6d97e872a2b6ee",
+    "url": "/banzai-shop/static/js/main.1a6b7ef9.chunk.js"
   },
   {
     "revision": "dee803f71a83d380beac",

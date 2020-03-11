@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc8466dd4b2e72221bb73f3ef4189184",
+    "revision": "cbf16424a9448dc5db21456adead1c1e",
     "url": "/banzai-shop/index.html"
   },
   {
-    "revision": "3bdbf2fcb8250ad24e8d",
+    "revision": "60b31ec4f612b5a4eff5",
     "url": "/banzai-shop/static/css/main.d72d42eb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/banzai-shop/static/js/2.a0bc10dd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3bdbf2fcb8250ad24e8d",
-    "url": "/banzai-shop/static/js/main.dda4182a.chunk.js"
+    "revision": "60b31ec4f612b5a4eff5",
+    "url": "/banzai-shop/static/js/main.069a3308.chunk.js"
   },
   {
     "revision": "dee803f71a83d380beac",

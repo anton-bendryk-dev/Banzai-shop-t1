@@ -100,19 +100,19 @@ export const productsDataTv = productsData.filter(function(currentValue,id){
     return currentValue.id <= 3
 })
 export const productsDataPhone = productsData.filter(function(currentValue,id){
-    if ((currentValue.id > 3) && (currentValue,id <= 5))
+    if ((currentValue.id >= 4) && (currentValue,id <= 5))
     return {
         currentValue,id
     } ;
 })
 export const productsDataLaptops = productsData.filter(function(currentValue,id){
-    if ((currentValue.id > 6) && (currentValue.id <= 9))
+    if ((currentValue.id >= 7) && (currentValue.id <= 9))
     return {
         currentValue,id
     } ;
 })
 export const productsDataTablets = productsData.filter(function(currentValue,id){
-    if ((currentValue.id > 9) && (currentValue.id <= 12))
+    if ((currentValue.id >= 10) && (currentValue.id <= 12))
     return {
         currentValue,id
     } ;

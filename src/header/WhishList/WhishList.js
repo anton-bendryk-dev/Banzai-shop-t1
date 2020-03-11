@@ -20,10 +20,7 @@ const WishList = ({
 }) => {
     return (
         <a href="/"><span className="icon2"></span>
-            Wish List ( {
-                <CartProductList
-                productsInCart={productsInCart}
-            />}0)
+            Wish List (0)
         </a> 
     )
 }

@@ -21,7 +21,7 @@ const Header = () => {
                 </div>
             </div>
             <div className="col-height50">
-                <div className="col-width20">
+                <div className="col-width20 cart">
                     <div className="categories"><p>Categories</p>
                         <div className="drop-menu">
                             <div class="menu-buttons"><Link to="/TVPage">TV</Link></div>
@@ -37,7 +37,7 @@ const Header = () => {
                     <a href="https://github.com/anton-bendryk-dev"><span className="icon3"></span>My Git Hub</a>
                     <a href="https://www.facebook.com/profile.php?id=100011041088916"><span className="icon4"></span>My Facebook</a>
                 </div>
-                <div className="col-width20">
+                <div className="col-width20 cart-container">
                     <Cart/>
                 </div>
             </div>

@@ -61,7 +61,7 @@ const productsData = [
         description:"14 FHD display, Dolby Audio™",
         type:"laptop",
         price:800,
-        image:'./pictures/lenovo3.png'
+        image:'./pictures/lenovo3.jpg'
     },
     {
         id:9,

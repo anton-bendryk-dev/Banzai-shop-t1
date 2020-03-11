@@ -10,15 +10,15 @@ const CartPage = ({
     return (
         <div className="cart-page">
             <h2 className="page-title">Cart Page</h2>
-            <div className="products-container">
-                <CartProductList
-                    productsInCart={productsInCart}
-                    CartList={CartProductListItemExtended}
-                />
-            </div>
             <CartTotal
                 productsInCart={productsInCart}
             />
+                <div className="products-container">
+                    <CartProductList
+                        productsInCart={productsInCart}
+                        CartList={CartProductListItemExtended}
+                    />
+                </div>
         </div>
     )
 }

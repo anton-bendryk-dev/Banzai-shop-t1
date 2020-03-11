@@ -3,6 +3,20 @@ import CartProductList from '../../Components/Cart/CartProductList'
 
 const WishList = ({
     productsInCart,
+    renderLike = () => {
+        const {
+            id,
+            isLiked,
+            addLike,
+            removeLike
+        } = this.props;
+
+        if(isLiked) {
+            removeLike(id)
+        } else {
+            addLike(id)
+        }
+    }
 }) => {
     return (
         <a href="/"><span className="icon2"></span>
@@ -10,7 +24,7 @@ const WishList = ({
                 <CartProductList
                 productsInCart={productsInCart}
             />}0)
-        </a>
+        </a> 
     )
 }
 export default WishList

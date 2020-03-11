@@ -96,6 +96,29 @@ const productsData = [
         image:'./pictures/ipud3.jpg'
     },
 ]
+export const productsDataTv = productsData.filter(function(currentValue,id){
+    return currentValue,id < 3;
+})
+export const productsDataPhone = productsData.filter(function(currentValue,id){
+    if ((currentValue,id >= 3) && (currentValue,id <= 5))
+    return {
+        currentValue,id
+    } ;
+})
+export const productsDataLaptops = productsData.filter(function(currentValue,id){
+    if ((currentValue,id >= 6) && (currentValue,id <= 8))
+    return {
+        currentValue,id
+    } ;
+})
+export const productsDataTablets = productsData.filter(function(currentValue,id){
+    if ((currentValue,id >= 9) && (currentValue,id <= 12))
+    return {
+        currentValue,id
+    } ;
+})
+console.log(productsDataTv)
+console.log(productsDataPhone)
 export const getProductsMap = (array) => {
     return array.reduce((accObj,product)=>({
         ...accObj,

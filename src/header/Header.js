@@ -24,10 +24,10 @@ const Header = () => {
                 <div className="col-width20">
                     <div className="categories"><p>Categories</p>
                         <div className="drop-menu">
-                            <div class="menu-buttons"><a href=" ">TV</a></div>
-                            <div class="menu-buttons"><a href="">Phones</a></div>
-                            <div class="menu-buttons"><a href="">Laptops</a></div>
-                            <div class="menu-buttons"><a href="">Tablets</a></div>
+                            <div class="menu-buttons"><Link to="/TVPage">TV</Link></div>
+                            <div class="menu-buttons"><Link to="/PhonePage">Phones</Link></div>
+                            <div class="menu-buttons"><Link to="/LaptopsPage">Laptops</Link></div>
+                            <div class="menu-buttons"><Link to="/TabletsPage">iPads</Link></div>
                         </div>
                     </div>
                 </div>

@@ -14,12 +14,6 @@ main {
   min-height: 300px;
   width: 100%;
 }
-.products-container {
-  min-height: 300px;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
 @keyframes fade {
   0% {
     opacity: 0;
@@ -98,166 +92,167 @@ main {
 .fadein .slideText3 {
   animation-delay: 10s;
 }
-.advertising{
-    display: flex;
-    justify-content: space-between;
-    min-height: 200px;
-    width: 100%;
+.advertising {
+  display: flex;
+  justify-content: space-between;
+  min-height: 200px;
+  width: 100%;
 }
-.info-box{
-    width: 250px;
-    height: 250px;
-    @include icon-big;
+.info-box {
+  width: 250px;
+  height: 250px;
+  @include icon-big;
 }
-.box1{
-    background-image: url(../images/iPhoneX.png);
-    background-color: $grey;
+.box1 {
+  background-image: url(../images/iPhoneX.png);
+  background-color: $grey;
 }
-.box1 p{
-    color: $blue;
-    font-size: 22px;
-    font-weight: 600;
-    margin-top: 20px;
-    margin-left: 20px;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    z-index: 1;
-    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c,;
+.box1 p {
+  color: $blue;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 20px;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  z-index: 1;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c;
 }
-.box3 p{
-    color: $blue;
-    font-size: 22px;
-    font-weight: 600;
-    margin-top: 20px;
-    margin-left: 20px;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    z-index: 1;
-    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c,;
+.box3 p {
+  color: $blue;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 20px;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  z-index: 1;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c;
 }
-.box2 p{
-    color: white;
-    font-size: 26px;
-    font-weight: 600;
-    text-align: center;
-    line-height: 145%;
-    z-index: 1;
-    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
+.box2 p {
+  color: white;
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 145%;
+  z-index: 1;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
-.box2 span{
-    color: white;
-    font-size: 26px;
-    font-weight: 400;
-    text-align: center;
-    line-height: 145%;
-    z-index: 1;
-    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c,;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
+.box2 span {
+  color: white;
+  font-size: 26px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 145%;
+  z-index: 1;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
-.box2{
-    background-color: $blue;
-    @include flex;
+.box2 {
+  background-color: $blue;
+  @include flex;
 }
-.box3{
-    background-image: url(../images/apple-watch.png);
-    background-color: $grey;
+.box3 {
+  background-image: url(../images/apple-watch.png);
+  background-color: $grey;
 }
-.products-container{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 60px;
+.products-container {
+  min-height: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 60px;
 }
-.product-list-item{
-    border: 2px solid $grey;
-    border-radius:5px;
-    width: 290px;
-    margin-bottom: 20px;
+.product-list-item {
+  border: 2px solid $grey;
+  border-radius: 5px;
+  width: 290px;
+  margin-bottom: 20px;
 }
-.product-image{
-    width: 287px;
-    height: 270px;
-    @include flex;
-    border-bottom: 1px solid $grey;
+.product-image {
+  width: 287px;
+  height: 270px;
+  @include flex;
+  border-bottom: 1px solid $grey;
 }
-.product-title{
-    font-size: 20px;
-    color:$blue;
-    font-weight: 600;
-    margin-top: 10px;
+.product-title {
+  font-size: 20px;
+  color: $blue;
+  font-weight: 600;
+  margin-top: 10px;
 }
-.product-description{
-    font-size: 16px;
-    color:$black;
-    font-weight: 400;
-    margin-top: 10px;
+.product-description {
+  font-size: 16px;
+  color: $black;
+  font-weight: 400;
+  margin-top: 10px;
 }
-.product-features{
-    font-size: 18px;
-    color:$black;
-    font-weight: 600;
-    margin-top: 10px;
+.product-features {
+  font-size: 18px;
+  color: $black;
+  font-weight: 600;
+  margin-top: 10px;
 }
-.product-price{
-    font-size: 20px;
-    color:$blue;
-    font-weight: 600;
-    margin-top: 10px;
+.product-price {
+  font-size: 20px;
+  color: $blue;
+  font-weight: 600;
+  margin-top: 10px;
 }
-.buttons-container{
-    margin-top: 10px;
-    margin-bottom: 30px;
-    @include flex-ac;
-    justify-content: space-between;
+.buttons-container {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  @include flex-ac;
+  justify-content: space-between;
 }
-.product-quantity{
-    text-align: center;
-    margin-top: 10px;
+.product-quantity {
+  text-align: center;
+  margin-top: 10px;
 }
-.product-quantity input{
-    text-align: center;
-    width: 80px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-radius: 5px;
+.product-quantity input {
+  text-align: center;
+  width: 80px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
 }
-.product-quantity button{
-    border-radius: 5px;
+.product-quantity button {
+  border-radius: 5px;
 }
-.AddToCard{
-    @include flex;
-    width: 120px;
-    height: 30px;
-    background-color: white;
-    color: $blue;
-    border-radius: 5px;
+.AddToCard {
+  @include flex;
+  width: 120px;
+  height: 30px;
+  background-color: white;
+  color: $blue;
+  border-radius: 5px;
 }
-.like{
-    @include flex;
-    width: 120px;
-    height: 30px;
-    background-color: white;
-    color: $blue;
-    border-radius: 5px;
+.like {
+  @include flex;
+  width: 120px;
+  height: 30px;
+  background-color: white;
+  color: $blue;
+  border-radius: 5px;
 }
-.AddToCard span{
-    @include icon-big;
-    width: 24px;
-    height: 24px;
-    background-image: url(../images/cart.png);
-    margin-left: 10px;
+.AddToCard span {
+  @include icon-big;
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/cart.png);
+  margin-left: 10px;
 }
-.heart1{
-    @include icon-big;
-    width: 24px;
-    height: 24px;
-    background-image: url(../images/like2.png);
-    margin-left: 10px;
+.heart1 {
+  @include icon-big;
+  width: 24px;
+  height: 24px;
+  background-image: url(../images/like2.png);
+  margin-left: 10px;
 }
-.heart2{
+.heart2 {
   @include icon-big;
   width: 24px;
   height: 24px;

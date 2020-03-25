@@ -1,8 +1,15 @@
 import React from 'react';
 import ProductListItem from './Products/ProductListItem';
-import {productsDataPhone} from './Products/ProductsData';
+import ProductsData from './Products/ProductsData';
 
 const PhonePage = () => {
+    let productsDataPhone = [];
+    for(var i = 0; i < ProductsData.length; i++) {
+        if(ProductsData[i].type === "phone") {
+            productsDataPhone.push(ProductsData[i]);
+        if(ProductsData.length === 3)break;
+        }
+    };
     return (
         <div className="products-container">
             {

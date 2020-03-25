@@ -1,10 +1,19 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-const WishList = () => {
+import {connect} from 'react-redux';
+// import ProductListItem, {renderLike} from '../../main/main-page/Products/ProductListItem'
+
+const WishList = (
+
+) => {
     return (
         <Link to="/"><span className="icon2"></span>
-            Wish List (0)
+            Wish List (
+
+            )
         </Link> 
     )
 }
-export default WishList
+
+export default connect(
+)(WishList)

@@ -25,7 +25,7 @@ class ProductListItem extends Component {
             id,
             isLiked,
             addLike,
-            removeLike
+            removeLike,
         } = this.props;
 
         if(isLiked) {
@@ -46,7 +46,7 @@ class ProductListItem extends Component {
             addProductToCart,
             isLiked
         } = this.props;
-
+        
     return (
         <div className="product-list-item">
             <div className="product-image">
@@ -74,7 +74,6 @@ class ProductListItem extends Component {
     )
 }
 }
-
 ProductListItem.propTypes = {
     name: PropTypes.string.isRequired,
     description:PropTypes.string,
@@ -107,9 +106,8 @@ const mapDispatchToProps = (dispatch) => ({
     })
 })
 
-
 export default connect(
     mapStateToProps,
-    mapDispatchToProps
-)(ProductListItem)
+    mapDispatchToProps,
+)(ProductListItem) 
 

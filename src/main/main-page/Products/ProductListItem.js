@@ -27,13 +27,12 @@ class ProductListItem extends Component {
             addLike,
             removeLike,
         } = this.props;
-
         if(isLiked) {
             removeLike(id)
         } else {
             addLike(id)
         }
-    }
+    } 
     
     render() {
         const {
@@ -45,7 +44,7 @@ class ProductListItem extends Component {
             type,
             addProductToCart,
             isLiked
-        } = this.props;
+        } = this.props; 
         
     return (
         <div className="product-list-item">
@@ -88,6 +87,7 @@ ProductListItem.defaultProps = {
 
 const mapStateToProps = (state,props) => ({
     isLiked:state.likeState[props.id]
+    
 })
 
 const mapDispatchToProps = (dispatch) => ({

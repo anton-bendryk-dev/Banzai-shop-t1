@@ -17,5 +17,5 @@ export const cartReducer = (state = {},action) => {
             return omit(state,[action.id])
         default: 
             return state
-    }
+    } 
 } 

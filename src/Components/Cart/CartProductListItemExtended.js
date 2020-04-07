@@ -43,6 +43,7 @@ const CartProductListItemExtended = ({
                 </p>
                 <div className="remove-item">
                     <button className="AddToCard remove" onClick={()=>removeProductFromCart(product.id)}>Delete product</button>
+                    <button className="AddToCard remove" onClick={()=>removeProductFromCart(product.id)}>Buy</button>
                 </div>
             </div>
         </div>

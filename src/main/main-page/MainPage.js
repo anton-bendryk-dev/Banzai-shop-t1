@@ -11,13 +11,13 @@ const MainPage = () => {
             <div className="slide-container">
                 <div className="fadein">
                     <div><img src={slide2} alt="" />
-                        <h2 className="inline-wrapper">Iphone X</h2>
+                        <h2>Iphone X</h2>
                     </div>
                     <div><img src={slide01} alt="" />
-                        <p className="inline-wrapper slideText2">IPAD</p>
+                        <p className="slideText2">IPAD</p>
                     </div>
                     <div><img src={slide4} alt="" />
-                        <p className="inline-wrapper slideText3">Smart TV</p>
+                        <p className="slideText3">Smart TV</p>
                     </div>
 				</div>
             </div>

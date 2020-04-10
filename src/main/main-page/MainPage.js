@@ -1,6 +1,7 @@
 import React from "react";
 import ProductsList from "./Products/ProductsList"
-import {Animated} from "react-animated-css";
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
 import slide2 from '../../images/slide-phone.jpg'
 import slide01 from '../../images/slide-phone2.jpg'
 import slide4 from '../../images/slide-tv.jpg'
@@ -23,19 +24,19 @@ const MainPage = () => {
             </div>
             <div className="advertising">
                 <div className="info-box box1">
-                    <Animated animationIn="zoomIn" animationOut="fadeOut" isVisible={true}>
+                    <ScrollAnimation animateIn="zoomIn">
                         <p>20% off</p>
-                    </Animated>
+                    </ScrollAnimation>
                 </div>
                 <div className="info-box box2">
-                    <Animated animationInDelay={1000} animationIn="zoomInDown" animationOut="fadeOut" isVisible={true}>
+                    <ScrollAnimation animateIn="zoomInDown">
                         <p>FREE SHIPPING AND REFUND <span>GUARANTEE</span></p>
-                    </Animated>
+                    </ScrollAnimation>
                 </div>
                 <div className="info-box box3">
-                    <Animated animationIn="rollIn" animationOut="fadeOut" isVisible={true}>
+                    <ScrollAnimation animateIn="rollIn">
                         <p>Smart watches as a gift</p>
-                    </Animated>
+                    </ScrollAnimation>
                 </div>
             </div>
             <ProductsList />

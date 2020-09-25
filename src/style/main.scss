@@ -1,261 +1,305 @@
 .side-bar {
-  width: 20%;
+    width: 20%;
 }
+
 .inline-main {
-  width: 80%;
-  min-height: 500px;
+    width: 80%;
 }
+
 main {
-  width: 100%;
-  @include flex-jc;
-  padding-top: 50px;
+    width: 100%;
+    @include flex-jc;
+    padding-top: 50px;
+    min-height: 747px;
 }
+
 .slide-container {
-  min-height: 300px;
-  width: 100%;
+    min-height: 300px;
+    width: 100%;
 }
+
 @keyframes fade {
-  0% {
-    opacity: 0;
-  }
-  11.11% {
-    opacity: 1;
-  }
-  33.33% {
-    opacity: 1;
-  }
-  44.44% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
+    0% {
+        opacity: 0;
+    }
+    11.11% {
+        opacity: 1;
+    }
+    33.33% {
+        opacity: 1;
+    }
+    44.44% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
 }
+
 .fadein {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  margin-bottom: 80px;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 80px;
 }
+
 .fadein div {
-  position: absolute;
-  width: 100%;
-  height: 400px;
-  left: 0;
-  right: 0;
-  opacity: 0;
-  animation-name: fade;
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    animation-name: fade;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
 }
+
 .fadein img {
-  position: absolute;
-  width: 100%;
-  height: 400px;
-  width: 100%;
-  left: 0;
-  right: 0;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    width: 100%;
+    left: 0;
+    right: 0;
 }
+
 .fadein div:nth-child(1) {
-  animation-delay: 0s;
+    animation-delay: 0s;
 }
+
 .fadein div:nth-child(2) {
-  animation-delay: 5s;
+    animation-delay: 5s;
 }
+
 .fadein div:nth-child(3) {
-  animation-delay: 10s;
+    animation-delay: 10s;
 }
+
 .fadein h2,
 .slideText2,
 .slideText3 {
-  position: relative;
-  top: 160px;
-  color: $blue;
-  font-size: 40px;
-  font-weight: 700;
-  margin-left: 43px;
-  opacity: 0;
-  animation-name: fade;
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
-  z-index: 1;
-  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
+    position: relative;
+    top: 160px;
+    color: $blue;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 43px;
+    opacity: 0;
+    animation-name: fade;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    z-index: 1;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
+
 .fadein h2 div:nth-child(1) {
-  animation-delay: 0s;
+    animation-delay: 0s;
 }
+
 .fadein .slideText2:nth-child(2) {
-  animation-delay: 5s;
+    animation-delay: 5s;
 }
+
 .fadein .slideText3 {
-  animation-delay: 10s;
+    animation-delay: 10s;
 }
+
 .advertising {
-  display: flex;
-  justify-content: space-between;
-  min-height: 200px;
-  width: 100%;
+    display: flex;
+    justify-content: space-between;
+    min-height: 200px;
+    width: 100%;
 }
+
 .info-box {
-  width: 250px;
-  height: 250px;
-  @include icon-big;
+    width: 250px;
+    height: 250px;
+    @include icon-big;
 }
+
 .box1 {
-  background-image: url(../images/iPhoneX.png);
-  background-color: $grey;
+    background-image: url(../images/iPhoneX.png);
+    background-color: $grey;
 }
+
 .box1 p {
-  color: $blue;
-  font-size: 22px;
-  font-weight: 600;
-  margin-top: 20px;
-  margin-left: 20px;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  z-index: 1;
-  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c;
+    color: $blue;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 20px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    z-index: 1;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c;
 }
+
 .box3 p {
-  color: $blue;
-  font-size: 22px;
-  font-weight: 600;
-  margin-top: 20px;
-  margin-left: 20px;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  z-index: 1;
-  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c;
+    color: $blue;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 20px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    z-index: 1;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c;
 }
+
 .box2 p {
-  color: white;
-  font-size: 26px;
-  font-weight: 600;
-  text-align: center;
-  line-height: 145%;
-  z-index: 1;
-  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 145%;
+    z-index: 1;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
+
 .box2 span {
-  color: white;
-  font-size: 26px;
-  font-weight: 400;
-  text-align: center;
-  line-height: 145%;
-  z-index: 1;
-  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
+    color: white;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 145%;
+    z-index: 1;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
+
 .box2 {
-  background-color: $blue;
-  @include flex;
+    background-color: $blue;
+    @include flex;
 }
+
 .box3 {
-  background-image: url(../images/apple-watch.png);
-  background-color: $grey;
+    background-image: url(../images/apple-watch.png);
+    background-color: $grey;
 }
+
 .products-container {
-  min-height: 300px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-top: 60px;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
 }
+
 .product-list-item {
-  border: 3px solid #e2dada;
-  border-radius: 5px;
-  width: 290px;
-  margin-bottom: 20px;
+    border: 3px solid #e2dada;
+    border-radius: 5px;
+    width: 290px;
+    margin-bottom: 20px;
 }
+
+.cart-product-list-container {
+    display: flex;
+    justify-content: center;
+}
+
 .product-image {
-  width: 287px;
-  height: 270px;
-  @include flex;
-  border-bottom: 2px solid #e2dada;
+    width: 287px;
+    height: 270px;
+    @include flex;
+    border-bottom: 2px solid #e2dada;
 }
+
 .product-title {
-  font-size: 20px;
-  color: $blue;
-  font-weight: 600;
-  margin-top: 10px;
+    font-size: 20px;
+    color: $blue;
+    font-weight: 600;
+    margin-top: 10px;
 }
+
 .product-description {
-  font-size: 16px;
-  color: $black;
-  font-weight: 400;
-  margin-top: 10px;
+    font-size: 16px;
+    color: $black;
+    font-weight: 400;
+    margin-top: 10px;
 }
+
 .product-features {
-  font-size: 18px;
-  color: $black;
-  font-weight: 600;
-  margin-top: 10px;
+    font-size: 18px;
+    color: $black;
+    font-weight: 600;
+    margin-top: 10px;
 }
+
 .product-price {
-  font-size: 20px;
-  color: $blue;
-  font-weight: 600;
-  margin-top: 10px;
+    font-size: 20px;
+    color: $blue;
+    font-weight: 600;
+    margin-top: 10px;
 }
+
 .buttons-container {
-  margin-top: 10px;
-  margin-bottom: 30px;
-  @include flex-ac;
-  justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    @include flex-ac;
+    justify-content: space-between;
 }
+
 .product-quantity {
-  text-align: center;
-  margin-top: 10px;
+    text-align: center;
+    margin-top: 10px;
 }
+
 .product-quantity input {
-  text-align: center;
-  width: 80px;
-  margin-left: 10px;
-  margin-right: 10px;
-  border-radius: 5px;
+    text-align: center;
+    width: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
 }
+
 .product-quantity button {
-  border-radius: 5px;
+    border-radius: 5px;
 }
+
 .AddToCard {
-  @include flex;
-  width: 120px;
-  height: 30px;
-  background-color: white;
-  color: $blue;
-  border-radius: 5px;
+    @include flex;
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    color: $blue;
+    border-radius: 5px;
 }
+
 .like {
-  @include flex;
-  width: 120px;
-  height: 30px;
-  background-color: white;
-  color: $blue;
-  border-radius: 5px;
+    @include flex;
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    color: $blue;
+    border-radius: 5px;
 }
+
 .AddToCard span {
-  @include icon-big;
-  width: 24px;
-  height: 24px;
-  background-image: url(../images/cart.png);
-  margin-left: 10px;
+    @include icon-big;
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/cart.png);
+    margin-left: 10px;
 }
+
 .heart1 {
-  @include icon-big;
-  width: 24px;
-  height: 24px;
-  background-image: url(../images/like2.png);
-  margin-left: 10px;
+    @include icon-big;
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/like2.png);
+    margin-left: 10px;
 }
+
 .heart2 {
-  @include icon-big;
-  width: 24px;
-  height: 24px;
-  background-image: url(../images/like.png);
-  margin-left: 10px;
+    @include icon-big;
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/like.png);
+    margin-left: 10px;
 }

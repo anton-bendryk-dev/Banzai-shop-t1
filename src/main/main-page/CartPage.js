@@ -13,7 +13,7 @@ const CartPage = ({
             <CartTotal
                 productsInCart={productsInCart}
             />
-                <div className="products-container">
+                <div className="products-container cart-product-list-container">
                     <CartProductList
                         productsInCart={productsInCart}
                         CartList={CartProductListItemExtended}

@@ -51,23 +51,25 @@ class ProductListItem extends Component {
             <div className="product-image">
                 <img src={image} alt={name} title={name} />
             </div>
-            <div className="product-title">{name}</div>
-            <div className="product-description">{description}</div>
-            <div className="product-features">Type: {type}</div>
-            <div className="product-price">Price : {price} $</div>
-            <Quantity
-                    productsCount={this.state.productsCount}
-                    onIncrementClick={this.onIncrementClick}
-                    onDecrementClick={this.onDecrementClick}
-                    minCount={1}
-                />
-            <div className="buttons-container">
-                <button className="like" onClick={()=>this.renderLike()}>
-                    Wish{isLiked ? <span className="heart1"></span> : <span className="heart2"></span>}
-                </button>
-                <button className="AddToCard"
-                    onClick={()=>addProductToCart(id,this.state.productsCount)}>To Card<span></span>
-                </button>
+            <div className="product-info">
+                <div className="product-title">{name}</div>
+                <div className="product-description">{description}</div>
+                <div className="product-features">Type: {type}</div>
+                <div className="product-price">Price : {price} $</div>
+                <Quantity
+                        productsCount={this.state.productsCount}
+                        onIncrementClick={this.onIncrementClick}
+                        onDecrementClick={this.onDecrementClick}
+                        minCount={1}
+                    />
+                <div className="buttons-container">
+                    <button className="like" onClick={()=>this.renderLike()}>
+                        Wish{isLiked ? <span className="heart1"></span> : <span className="heart2"></span>}
+                    </button>
+                    <button className="AddToCard"
+                        onClick={()=>addProductToCart(id,this.state.productsCount)}>To Card<span></span>
+                    </button>
+                </div>
             </div>
         </div>
     )

@@ -14,7 +14,7 @@ const CartProductListItemExtended = ({
             <div className="product-image">
                 <img src={product.image} alt={product.name}/>
             </div>
-            <div>
+            <div className="product-info">
                 <p className="product-title">
                     <span> {product.name} </span> 
                 </p>

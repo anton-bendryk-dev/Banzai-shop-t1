@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Banzai-shop-t1/static/css/main.e44aca51.chunk.css",
-    "main.js": "/Banzai-shop-t1/static/js/main.c97d3f1c.chunk.js",
-    "main.js.map": "/Banzai-shop-t1/static/js/main.c97d3f1c.chunk.js.map",
+    "main.js": "/Banzai-shop-t1/static/js/main.fd51aca5.chunk.js",
+    "main.js.map": "/Banzai-shop-t1/static/js/main.fd51aca5.chunk.js.map",
     "runtime-main.js": "/Banzai-shop-t1/static/js/runtime-main.d29b906a.js",
     "runtime-main.js.map": "/Banzai-shop-t1/static/js/runtime-main.d29b906a.js.map",
     "static/css/2.d9ee7e2f.chunk.css": "/Banzai-shop-t1/static/css/2.d9ee7e2f.chunk.css",
     "static/js/2.1de7334c.chunk.js": "/Banzai-shop-t1/static/js/2.1de7334c.chunk.js",
     "static/js/2.1de7334c.chunk.js.map": "/Banzai-shop-t1/static/js/2.1de7334c.chunk.js.map",
     "index.html": "/Banzai-shop-t1/index.html",
-    "precache-manifest.a3e2e00ac9e153caf3e5cee16f8170c1.js": "/Banzai-shop-t1/precache-manifest.a3e2e00ac9e153caf3e5cee16f8170c1.js",
+    "precache-manifest.e3eb01780c27b00e66b1e151fd5628c2.js": "/Banzai-shop-t1/precache-manifest.e3eb01780c27b00e66b1e151fd5628c2.js",
     "service-worker.js": "/Banzai-shop-t1/service-worker.js",
     "static/css/2.d9ee7e2f.chunk.css.map": "/Banzai-shop-t1/static/css/2.d9ee7e2f.chunk.css.map",
     "static/css/main.e44aca51.chunk.css.map": "/Banzai-shop-t1/static/css/main.e44aca51.chunk.css.map",
@@ -24,6 +24,6 @@
     "static/css/2.d9ee7e2f.chunk.css",
     "static/js/2.1de7334c.chunk.js",
     "static/css/main.e44aca51.chunk.css",
-    "static/js/main.c97d3f1c.chunk.js"
+    "static/js/main.fd51aca5.chunk.js"
   ]
 }

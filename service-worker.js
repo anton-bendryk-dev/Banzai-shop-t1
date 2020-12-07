@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Banzai-shop-t1/precache-manifest.a3e2e00ac9e153caf3e5cee16f8170c1.js"
+  "/Banzai-shop-t1/precache-manifest.e3eb01780c27b00e66b1e151fd5628c2.js"
 );
 
 self.addEventListener('message', (event) => {

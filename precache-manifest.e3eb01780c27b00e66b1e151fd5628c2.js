@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ce1cd3a97793130cb925f9c8c243c6d",
+    "revision": "26067dd85ca023da3c613b5b704734dd",
     "url": "/Banzai-shop-t1/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Banzai-shop-t1/static/css/2.d9ee7e2f.chunk.css"
   },
   {
-    "revision": "3cce6b4fcab136084d87",
+    "revision": "338992f9e5e2c7a2e51a",
     "url": "/Banzai-shop-t1/static/css/main.e44aca51.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Banzai-shop-t1/static/js/2.1de7334c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3cce6b4fcab136084d87",
-    "url": "/Banzai-shop-t1/static/js/main.c97d3f1c.chunk.js"
+    "revision": "338992f9e5e2c7a2e51a",
+    "url": "/Banzai-shop-t1/static/js/main.fd51aca5.chunk.js"
   },
   {
     "revision": "74544b084ead77272166",

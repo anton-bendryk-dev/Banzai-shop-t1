@@ -1,25 +1,25 @@
 @media screen and (max-width: 600px) and (min-width: 320px) {
-    .inline-wrapper{
-        width:100%;
-    }
-    .col-width60{
-        width: 70%;
-    }
-    .col-width20{
+    .inline-wrapper {
         width: 100%;
     }
-    .cart-container{
+    .col-width60 {
+        width: 70%;
+    }
+    .col-width20 {
+        width: 100%;
+    }
+    .cart-container {
         width: 30%;
     }
-    .contacts{
+    .contacts {
         display: flex;
         align-items: center;
         width: 30%;
     }
-    .contacts p{
+    .contacts p {
         font-size: 12px;
     }
-    .categories{
+    .categories {
         width: 60px;
         height: 20px;
         position: absolute;
@@ -29,7 +29,7 @@
         background-repeat: no-repeat;
         background-position: center;
     }
-    .categories p{
+    .categories p {
         display: none;
     }
     .drop-menu {
@@ -40,13 +40,13 @@
     .menu-buttons {
         width: 192px;
     }
-    .menu-buttons a{
+    .menu-buttons a {
         width: 100%;
         height: 50px;
         margin-left: 5px;
     }
-    .navigation a{
-        color:$blue;
+    .navigation a {
+        color: $blue;
         @include flex-ac;
         height: 20px;
         font-size: 10px;
@@ -54,10 +54,10 @@
     .navigation {
         margin-top: 10px;
     }
-    .cart span{
-        margin-right:0px;
+    .cart span {
+        margin-right: 0px;
     }
-    .cart{
+    .cart {
         margin-top: 10px;
         height: 50px;
     }
@@ -96,7 +96,15 @@
     .like {
         height: 40px;
     }
-    .product-quantity{
+    .product-quantity {
         height: 30px;
+    }
+    footer {
+        position: relative;
+        bottom: 0;
+        min-height: 80px;
+    }
+    footer p {
+        font-size: 18px;
     }
 }
